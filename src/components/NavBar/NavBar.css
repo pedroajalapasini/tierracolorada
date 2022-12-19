@@ -1,0 +1,59 @@
+.navbar-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aliceblue;
+}
+.brand-app {
+  display: flex;
+  flex-direction: row;
+}
+.container-item-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+}
+.item-nav {
+  list-style: none;
+  padding: 10px;
+}
+.item-nav a {
+  text-decoration: none;
+  color: #CC8348;
+  padding: 5px;
+}
+.item-nav a:hover {
+  border-bottom: 2px solid #1D2834;
+  transition: 1s;
+  color:#89443B ;
+}
+.item-nav .cart {
+  padding: 15px;
+  width: 50px;
+
+}
+svg{
+    position: relative;
+}
+.amount{
+    background-color: red;
+    position: absolute;
+    margin: auto;
+/*     top: 75px;
+    right: 110px; */
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    display: inline;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
