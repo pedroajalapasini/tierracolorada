@@ -23,6 +23,6 @@ export default function NavBar() {
             </ul>
         </nav>
       </div>
-    </header>
+    </header>    
   );
 }

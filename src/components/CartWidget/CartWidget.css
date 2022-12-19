@@ -1,3 +1,30 @@
 .bi-cart3{
-    fill:black;
+    fill: black;
+
 }
+.cart {
+    padding: 15px;
+    width: 25px;
+    list-style: none;
+    
+  
+  }
+  svg{
+      position: relative;
+  }
+  .amount{
+      background-color: red;
+      position: absolute;
+      margin: auto;
+      color: white;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.1px;
+      display: inline;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+  }

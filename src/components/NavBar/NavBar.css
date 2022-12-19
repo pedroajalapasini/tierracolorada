@@ -31,29 +31,3 @@
   transition: 1s;
   color:#89443B ;
 }
-.item-nav .cart {
-  padding: 15px;
-  width: 50px;
-
-}
-svg{
-    position: relative;
-}
-.amount{
-    background-color: red;
-    position: absolute;
-    margin: auto;
-/*     top: 75px;
-    right: 110px; */
-    color: white;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.1px;
-    display: inline;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}

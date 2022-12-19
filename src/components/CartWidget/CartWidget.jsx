@@ -2,7 +2,7 @@ import "./CartWidget.css";
 
 export default function CartWidget(props) {
   return (
-    <li className="item-nav cart">
+    <li className="cart">
       <a href="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
