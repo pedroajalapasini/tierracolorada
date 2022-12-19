@@ -13,12 +13,12 @@ export default function NavBar() {
             title="logo de marca"
           />
             <ul className="container-item-nav">
-              <NavItem href="/ "text="Inicio" />
-              <NavItem href="/Catalogo" text="Catálogo" />
-              <NavItem href="/Salta"  text="Salta" />
-              <NavItem href="/Jujuy"  text="Jujuy" />
-              <NavItem href="/Tucumán"  text="Tucumán" />
-              <NavItem href="/Iguazú" text="Iguazú" />
+              <NavItem href="/Inicio"> Inicio </NavItem>
+              <NavItem href="/Catalogo">Catálogo</NavItem>
+              <NavItem href="/Salta">Salta</NavItem>
+              <NavItem href="/Jujuy">Jujuy</NavItem>
+              <NavItem href="/Tucumán">Tucumán</NavItem>
+              <NavItem href="/Iguazú"> Iguazú</NavItem>
               <CartWidget amount={5}/>
             </ul>
         </nav>

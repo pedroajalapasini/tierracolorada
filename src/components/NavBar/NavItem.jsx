@@ -1,8 +1,8 @@
 import './NavBar.css'
 
-const NavItem = ({href, text}) => 
+const NavItem = ({href, children}) => 
   <li className="item-nav">
-    <a href={href}>{text}</a>
+    <a href={href}>{children}</a>
   </li>
 
 export default NavItem;
